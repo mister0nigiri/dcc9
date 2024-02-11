@@ -46,7 +46,53 @@
     </div>
   </header>
   <main>
+    <figure class="under-mv">
+      <picture>
+        <source media="(max-width:767px)" srcset="img/mv-sp4.png 1x, img/mv-sp4@2x.png 2x">
+        <source media="(min-width:768px)" srcset="img/mv-pc4.png 1x, img/mv-pc4@2x.png 2x">
+        <img src="img/mv-pc4.png">
+      </picture>
+    </figure>
+    <div class="page-title--box">
+      <h2 class="page-title" data-en="contact">お問い合わせ</h2>
+    </div>
+    <section class="contact-form wrapper">
+      <p>下記お問い合わせフォームよりお問い合わせ下さい。</p>
+      <form action="#" method="POST" id="form">
+        <p>お問い合わせ項目</p>
+        <div class="input-field">
+          <input type="radio" name="item" id="service" value="技術・サービスについて">
+          <label for="service">技術・サービスについて</label>
+          <input type="radio" name="item" id="recruit" value="採用について">
+          <label for="recruit">採用について</label>
+          <input type="radio" name="item" id="interview" value="取材について">
+          <label for="interview">取材について</label>
+          <input type="radio" name="item" id="other" value="その他">
+          <label for="other">その他</label>
+        </div>
+        <p>会社名</p>
+        <div class="input-box">
+          <input type="text" placeholder="双海工業株式会社">
+        </div>
+        <p>お名前</p>
+        <div class="input-box">
+          <input type="text" placeholder="双海太郎">
+        </div>
+        <p>メールアドレス</p>
+        <div class="input-box">
+          <input type="email" placeholder="xxxxxx@xxx.co.jp">
+        </div>
+        <p>お問い合わせ内容</p>
+        <div class="input-box">
+          <textarea cols="30" rows="10" placeholder="詳細なお問い合わせ内容をご入力ください。"></textarea>
+        </div>
+        <p>※個人情報の取り扱いについては、<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+        <div class="formBtns">
+          <button class="buttonAction">送信する</button>
+        </div>
+      </form>
 
+    </section>
   </main>
   <footer class="footer">
     <div class="footer__inner wrapper">
