@@ -11,13 +11,16 @@
   <meta property="og:image" content="ページのサムネイルの画像">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
-  <meta property="og:site_name" content="サイト名">
+  <meta property="og:site_name" content="双海工業株式会社">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="サイトの@Twitterのユーザー名">
   <title>双海工業株式会社</title>
   <link rel="canonical" href="">
   <link rel="icon" href="">
   <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
@@ -31,16 +34,16 @@
   <header class="header">
     <a href="contact.html" class="header__contact">お問い合わせ</a>
     <div class="header__inner wrapper">
-      <h1>
+      <h1 class="site-title">
         <a href="index.html"><img src="img/logo.png" alt="双海工業株式会社"></a>
       </h1>
       <nav class="header__nav">
         <ul>
-          <li><a href="index.html">ホーム</a></li>
-          <li><a href="">会社情報</a></li>
-          <li><a href="">事業内容</a></li>
-          <li><a href="">お知らせ</a></li>
-          <li><a href="">採用情報</a></li>
+          <li><a href="index.html" class="current-page">ホーム</a></li>
+          <li><a href="company.html">会社情報</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="#" target="_blank">採用情報</a></li>
         </ul>
       </nav>
     </div>
@@ -50,63 +53,69 @@
       <p class="jumbotron__title">技術の力で<br>豊かな未来を<br>想像する</p>
       <figure class="jumbotron__img">
         <picture>
-          <source media="(max-width:767px)" srcset="img/mv-sp.png 1x, img/mv-sp@2x.png 2x">
-          <source media="(min-width:768px)" srcset="img/mv-pc.png 1x, img/mv-pc@2x.png 2x">
+          <source media="(max-width:450px)" srcset="img/mv-sp.png 1x, img/mv-sp@2x.png 2x">
+          <source media="(min-width:451px)" srcset="img/mv-pc.png 1x, img/mv-pc@2x.png 2x">
           <img src="img/mv-pc.png">
         </picture>
       </figure>
     </div>
     <section class="news-home">
-      <div class="section-title--box">
-        <h2 class="section-title news-home__title" data-en="news">お知らせ</h2>
+      <div class="news-home__inner">
+        <div class="section-title--box">
+          <h2 class="section-title news-home__title" data-en="news">お知らせ</h2>
+        </div>
+        <ul class="vertical-posts">
+          <li class="vertical-posts__item">
+            <div class="vertical-posts__header">
+              <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
+              <ul class="vertical-posts__labels">
+                <li class="vertical-posts__label">
+                  <span class="label">ニュース</span>
+                </li>
+              </ul>
+            </div>
+            <a href="news-detail.html" class="vertical-posts__title">ニュースタイトルが入りますニュースタイトルが入ります。</a>
+          </li>
+          <li class="vertical-posts__item">
+            <div class="vertical-posts__header">
+              <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
+              <ul class="vertical-posts__labels">
+                <li class="vertical-posts__label">
+                  <span class="label">ブログ</span>
+                </li>
+              </ul>
+            </div>
+            <a href="news-detail.html" class="vertical-posts__title">ブログタイトルが入りますブログタイトルが入ります。</a>
+          </li>
+          <li class="vertical-posts__item">
+            <div class="vertical-posts__header">
+              <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
+              <ul class="vertical-posts__labels">
+                <li class="vertical-posts__label">
+                  <span class="label">ニュース</span>
+                </li>
+              </ul>
+            </div>
+            <a href="news-detail.html" class="vertical-posts__title">ニュースタイトルが入りますニュースタイトルが入ります。</a>
+          </li>
+        </ul>
+        <div class="toDetail-btn--box news-home__btn--box">
+          <a class="toDetail-btn news-home__btn" href="news.html">一覧を見る</a>
+        </div>
       </div>
-      <ul class="vertical-posts">
-        <li class="vertical-posts__item">
-          <div class="vertical-posts__header">
-            <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
-            <ul class="vertical-posts__labels">
-              <li class="vertical-posts__label">
-                <span class="label">ニュース</span>
-              </li>
-            </ul>
-          </div>
-          <a href="#" class="vertical-posts__title">ニュースタイトルが入りますニュースタイトルが入ります。</a>
-        </li>
-        <li class="vertical-posts__item">
-          <div class="vertical-posts__header">
-            <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
-            <ul class="vertical-posts__labels">
-              <li class="vertical-posts__label">
-                <span class="label">ブログ</span>
-              </li>
-            </ul>
-          </div>
-          <a href="#" class="vertical-posts__title">ブログタイトルが入りますブログタイトルが入ります。</a>
-        </li>
-        <li class="vertical-posts__item">
-          <div class="vertical-posts__header">
-            <time class="vertical-posts__date" datetime="2023-01-01">2023.01.01</time>
-            <ul class="vertical-posts__labels">
-              <li class="vertical-posts__label">
-                <span class="label">ニュース</span>
-              </li>
-            </ul>
-          </div>
-          <a href="#" class="vertical-posts__title">ニュースタイトルが入りますニュースタイトルが入ります。</a>
-        </li>
-      </ul>
-      <a class="news-home__btn" href="#">一覧を見る</a>
     </section>
     <section class="company-home">
       <div class="company-home__top wrapper">
-        <div class="section-title--box">
+        <div class="section-title--box company-home__title--box">
           <h2 class="section-title company-home__title" data-en="company">会社情報</h2>
         </div>
         <div class="company-home__img--box">
           <div class="company-home__img">
             <img src="img/company-img-pc.png" alt="">
           </div>
-          <a href="" class="company-home__btn">詳細を見る</a>
+          <div class="toDetail-btn--box company-home__btn--box">
+            <a href="company.html" class="toDetail-btn company-home__btn">詳細を見る</a>
+          </div>
         </div>
       </div>
       <div class="company-home__down wrapper">
@@ -115,44 +124,46 @@
     </section>
     <section class="service-home">
       <div class="service-home__top wrapper">
-        <div>
-          <div class="section-title--box">
-            <h2 class="section-title company-home__title" data-en="company">会社情報</h2>
+        <div class="service-home__top__right">
+          <div class="section-title--box service-home__title--box">
+            <h2 class="section-title service-home__title" data-en="service">事業内容</h2>
           </div>
           <div>
             <img src="img/service-img-1.png" alt="">
           </div>
         </div>
-        <div>
-          <div>
-            <h3>事業概要</h3>
+        <div class="service-home__top__left">
+          <div class="service-home__top__left__text">
+            <h3 class="service-home__top__title">事業概要</h3>
             <p>事業概要についてのテキストが入ります事業概要についてのテキストが入ります事業概要についてのテキストが入ります。</p>
           </div>
-          <div>
+          <div class="service-home__top__left__img1">
             <img src="img/service-img-2.png" alt="">
           </div>
-          <div>
+          <div class="service-home__top__left__img2">
             <img src="img/service-img-3.png" alt="">
           </div>
         </div>
       </div>
-      <div class="service-home__down">
-        <div>
-          <h3>建設事例</h3>
+      <div class="service-home__down wrapper">
+        <div class="service-home__down__text">
+          <h3 class="service-home__down__title">建設事例</h3>
           <p>建設事例についてのテキストが入ります建設事例についてのテキストが入ります建設事例についてのテキストが入ります。</p>
         </div>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img/service-case-4.png" alt=""></div>
-            <div class="swiper-slide"><img src="img/service-case-5.png" alt=""></div>
-            <div class="swiper-slide"><img src="img/service-case-1.png" alt=""></div>
-            <div class="swiper-slide"><img src="img/service-case-2.png" alt=""></div>
-            <div class="swiper-slide"><img src="img/service-case-3.png" alt=""></div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/service-case-4.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/service-case-5.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/service-case-1.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/service-case-2.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/service-case-3.png" alt=""></div>
         </div>
-        <a class="btn" href="#">詳細を見る</a>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="toDetail-btn--box service-home__btn--box wrapper">
+        <a class="toDetail-btn service-home__btn" href="service.html">詳細を見る</a>
       </div>
     </section>
     <section class="recruit-home">
