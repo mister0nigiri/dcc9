@@ -18,6 +18,9 @@
   <link rel="canonical" href="">
   <link rel="icon" href="">
   <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
@@ -53,118 +56,161 @@
         <img src="img/mv-pc1.png">
       </picture>
     </figure>
-    <div class="page-title--box">
+    <div class="page-title--box wrapper">
       <h2 class="page-title" data-en="company">会社情報</h2>
     </div>
     <div class="company-container">
       <nav class="company-nav">
         <ul>
-          <li><a href="#">経営理念</a></li>
-          <li><a href="#">会社概要</a></li>
-          <li><a href="#">沿革</a></li>
-          <li><a href="#">組織図</a></li>
-          <li><a href="#">所在地</a></li>
+          <li><a href="#philosophy">経営理念</a></li>
+          <li><a href="#overview">会社概要</a></li>
+          <li><a href="#history">沿革</a></li>
+          <li><a href="#chart">組織図</a></li>
+          <li><a href="#location">所在地</a></li>
         </ul>
       </nav>
       <div class="company-content">
-        <section class="philosophy">
+        <section class="philosophy" id="philosophy">
           <h3 class="company-content__title">経営理念</h3>
-          <p>技術の力で豊かな社会を創造する</p>
-          <p>経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります。</p>
+          <p class="philosophy__title">技術の力で豊かな社会を創造する</p>
+          <p class="philosophy__text">経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります経営理念についてのテキストが入ります。</p>
           <div class="philosophy__img">
             <img src="img/mission.png" alt="">
           </div>
         </section>
-        <section class="overview">
+        <section class="overview" id="overview">
           <h3 class="company-content__title">会社概要</h3>
-          <dl>
-            <dt>商号</dt>
-            <dd>双海工業株式会社</dd>
-            <dt>所在地</dt>
-            <dd><address>〒140-0002 東京都品川区東品川2丁目 ウエストビル14階</address></dd>
-            <dt>代表取締役</dt>
-            <dd>双海 太郎</dd>
-            <dt>設立日</dt>
-            <dd><time datetime="1987-03-01">1987年3月1日</time></dd>
-            <dt>資本金</dt>
-            <dd>1億円</dd>
-            <dt>事業内容</dt>
-            <dd>建設工事全般に関する請負又は受託<br>建物内外の保守管理<br>地域開発、都市開発、コンサルティング</dd>
-            <dt>資格・免許</dt>
-            <dd>一級建築士<br>一級建築施工管理技士<br>一級管工事施工管理技士</dd>
+          <dl class="overview__list">
+            <dt class="overview__term">商号</dt>
+            <dd class="overview__description">双海工業株式会社</dd>
+            <dt class="overview__term">所在地</dt>
+            <dd class="overview__description"><address>〒140-0002 東京都品川区東品川2丁目 ウエストビル14階</address></dd>
+            <dt class="overview__term">代表取締役</dt>
+            <dd class="overview__description">双海 太郎</dd>
+            <dt class="overview__term">設立日</dt>
+            <dd class="overview__description"><time datetime="1987-03-01">1987年3月1日</time></dd>
+            <dt class="overview__term">資本金</dt>
+            <dd class="overview__description">1億円</dd>
+            <dt class="overview__term">事業内容</dt>
+            <dd class="overview__description">建設工事全般に関する請負又は受託<br>建物内外の保守管理<br>地域開発、都市開発、コンサルティング</dd>
+            <dt class="overview__term">資格・免許</dt>
+            <dd class="overview__description">一級建築士<br>一級建築施工管理技士<br>一級管工事施工管理技士</dd>
           </dl>
         </section>
-        <section class="history">
+        <section class="history" id="history">
           <h3 class="company-content__title">沿革</h3>
-          <div class="horizontal-table">
-            <table class="horizontal-table__inner">
-              <tbody class="horizontal-table__body">
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header">1987年</th>
-                  <td class="horizontal-table__text">3月</td>
-                  <td class="horizontal-table__text">双海工業株式会社を設立。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header" rowspan="2">1995年</th>
-                  <td class="horizontal-table__text">1月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <td class="horizontal-table__text">6月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header" rowspan="3">2002年</th>
-                  <td class="horizontal-table__text">1月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <td class="horizontal-table__text">5月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <td class="horizontal-table__text">11月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header">2008年</th>
-                  <td class="horizontal-table__text">12月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header">2014年</th>
-                  <td class="horizontal-table__text">4月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header" rowspan="2">2018年</th>
-                  <td class="horizontal-table__text">2月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <td class="horizontal-table__text">10月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-                <tr class="horizontal-table__row">
-                  <th class="horizontal-table__header">2022年</th>
-                  <td class="horizontal-table__text">12月</td>
-                  <td class="horizontal-table__text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="history__1987">
+            <div class="history__year">
+              <p>1987年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content">
+                <p class="history__month">3月</p>
+                <p class="history__description">双海工業株式会社を設立。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__1995">
+            <div class="history__year">
+              <p>1995年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content mb24">
+                <p class="history__month">1月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+              <div class="history__content">
+                <p class="history__month">6月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__2002">
+            <div class="history__year">
+              <p>2002年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content mb24">
+                <p class="history__month">1月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+              <div class="history__content mb24">
+                <p class="history__month">5月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+              <div class="history__content">
+                <p class="history__month">11月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__2008">
+            <div class="history__year">
+              <p>2008年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content">
+                <p class="history__month">12月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__2014">
+            <div class="history__year">
+              <p>2014年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content">
+                <p class="history__month">4月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__2018">
+            <div class="history__year">
+              <p>2018年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content mb24">
+                <p class="history__month">2月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+              <div class="history__content">
+                <p class="history__month">10月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="history__2022">
+            <div class="history__year">
+              <p>2022年</p>
+            </div>
+            <div class="history__content--box">
+              <div class="history__content">
+                <p class="history__month">12月</p>
+                <p class="history__description">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります。</p>
+              </div>
+            </div>
           </div>
         </section>
-        <section class="chart">
+        <section class="chart" id="chart">
           <h3 class="company-content__title">組織図</h3>
           <div class="chart__img">
             <img src="img/organization.png" alt="">
           </div>
         </section>
-        <section class="location">
+        <section class="location" id="location">
+          <h3 class="company-content__title">所在地</h3>
           <div class="google-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4585.299293219977!2d139.7062494041788!3d35.64507269733178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b40ba660b1b%3A0x8858088b6942f55f!2z44CSMTUwLTAwMjIg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_5Y2X!5e0!3m2!1sja!2sjp!4v1592748907506!5m2!1sja!2sjp"></iframe>
           </div>
-          <p>〒140-0002 東京都品川区東品川2丁目 ウエストビル14階<br>電話番号 03-0000-0000</p>
+          <p class="location__text">〒140-0002 東京都品川区東品川2丁目 ウエストビル14階<br>電話番号 03-0000-0000</p>
         </section>
       </div>
     </div>

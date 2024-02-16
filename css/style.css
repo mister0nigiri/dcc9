@@ -711,3 +711,279 @@ th {
   margin-top: 80px;
   text-align: center;
 }
+
+
+/* 
+
+company.html
+
+*/
+
+.under-mv{
+  margin: 0 auto;
+  max-width: 1400px;
+  margin-top: 76px;
+}
+
+
+.page-title--box{
+  position: relative;
+}
+
+.page-title--box:before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -98px;
+  left: 50px;
+  width: 1px;
+  height: 80px;
+  background-color: #E60012;
+}
+
+.page-title{
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-top: 60px;
+}
+
+.page-title::before{
+  content: attr(data-en);
+  display: block;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+}
+
+.company-container{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+}
+
+.company-nav{
+  width: 20%;
+  border-right: 1px solid #2a2a2a;
+}
+
+.company-nav ul{
+  position: sticky;
+  top: 40px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.company-nav ul li{
+  margin-bottom: 24px;
+  text-align: right;
+  position: relative;
+}
+
+.company-nav ul li a{
+  display: inline-block;
+  font-weight: bold;
+  color: rgba(42, 42, 42, 0.4);
+}
+
+.company-nav ul li a.active {
+  color: #2A2A2A;
+}
+
+.company-nav ul li a.active:before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  left: -56px;
+  width: 40px;
+  height: 1px;
+  background-color: #E60012;
+}
+
+.company-content{
+  width: 71%;
+  padding-left: 80px;
+}
+
+/* PHILOSOPHY */
+
+.company-content__title{
+  font-size: 1.5rem;
+  padding-left: 16px;
+  border-left: 8px solid #E60012;
+}
+
+.philosophy{
+  padding-bottom: 159px;
+}
+
+.philosophy__title{
+  margin-top: 40px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.philosophy__text{
+  margin-top: 24px;
+  line-height: 1.8;
+}
+
+.philosophy__img{
+  margin-top: 24px;
+}
+
+.philosophy__img img{
+  width: 100%;
+  height: 320px;
+}
+
+/* OVERVIEW */
+
+.overview{
+  margin-top: 1px;
+  padding-bottom: 159px;
+}
+
+.overview__list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.overview__term{
+  width: 23%;
+  border-top: 1px solid #EFEFEF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+.overview__term:last-of-type{
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.overview__description{
+  width: 77%;
+  border-top: 1px solid #EFEFEF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.625;
+}
+
+.overview__description address{
+  font-style: normal;
+}
+
+.overview__description:last-of-type{
+  border-bottom: 1px solid #EFEFEF;
+}
+
+/* HISTORY */
+
+.history{
+  margin-top: 1px;
+  padding-bottom: 159px;
+}
+
+.history__1987{
+  margin-top: 40px;
+}
+
+.history__1987, 
+.history__1995, 
+.history__2002, 
+.history__2008,
+.history__2014,
+.history__2018,
+.history__2022{
+  display: flex;
+}
+
+
+.history__year{
+  width: 18%;
+  margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #2A2A2A;
+}
+
+.history__2022 .history__year{
+  border-bottom: 1px solid #2A2A2A;
+}
+
+.history__content--box{
+  width: 82%;
+  border-top: 1px solid #EFEFEF;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.history__2022 .history__content--box{
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.history__content{
+  display: flex;
+}
+
+.mb24{
+  margin-bottom: 24px;
+}
+
+.history__month{
+  width: 13%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.history__description{
+  width: 87%;
+  border-left: 1px solid #EFEFEF;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+
+/* CHART */
+
+.chart{
+  margin-top: 1px;
+  padding-bottom: 159px;
+}
+
+.chart__img{
+  margin-top: 40px;
+}
+
+.chart__img img{
+  width: 100%;
+}
+
+/* LOCATION */
+
+.location{
+  margin-top: 1px;
+  padding-bottom: 160px;
+}
+
+.google-map{
+  margin-top: 40px;
+}
+
+.google-map iframe{
+  vertical-align: bottom;
+  width: 100%;
+  height: 400px;
+}
+
+.location__text{
+  margin-top: 16px;
+  line-height: 1.6;
+}
