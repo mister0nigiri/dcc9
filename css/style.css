@@ -987,3 +987,275 @@ company.html
   margin-top: 16px;
   line-height: 1.6;
 }
+
+
+/* 
+
+service.html
+
+*/
+
+/* PUBLIC */
+
+.public{
+  margin-top: 120px;
+}
+
+.public__img{
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.public__title-box{
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.public__title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  writing-mode: vertical-rl;
+  border-right: 8px solid #E60012;
+  letter-spacing: .1em;
+  line-height: 1;
+}
+
+.public__text{
+  margin-top: 48px;
+  line-height: 1.625;
+}
+
+.public__list{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 96px;
+  display: flex;
+}
+
+.public__list li{
+  width: 25%;
+  margin-right: 64px;
+}
+
+.public__list li:last-of-type{
+  margin-right: 0;
+}
+
+.public__list__time{
+  display: inline-block;
+  margin-top: 24px;
+  padding-left: 24px;
+  font-size: 0.875rem;
+}
+
+
+.public__list__title{
+  font-weight: bold;
+  line-height: 1;
+  padding-left: 24px;
+}
+
+.public__list__text{
+  margin-top: 24px;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  padding-left: 24px;
+  padding-right: 28px;
+}
+
+.public__list-second{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.public__list-second li{
+  width: 25%;
+  margin-right: 64px;
+}
+
+.public__list-second li:last-of-type{
+  margin-right: 0;
+}
+
+/* APARTMENT */
+
+.apartment{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+
+.apartment__img{
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.apartment__title-box{
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.apartment__title{
+  border-right: 8px solid #E60012;
+  writing-mode: vertical-rl;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: .1em;
+}
+
+.apartment__text{
+  margin-top: 48px;
+  line-height: 1.625;
+}
+
+.apartment__list{
+  margin-top: 96px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.apartment__list li{
+  width: 25%;
+  margin-right: 64px;
+}
+
+.apartment__list li:last-of-type{
+  width: 25%;
+  margin-right: 0;
+}
+
+.apartment__list-second{
+  margin-top: 96px;
+  display: flex;
+}
+
+.apartment__list-second li{
+  width: 25%;
+  margin-right: 64px;
+}
+
+.apartment__list-second li:last-of-type{
+  margin-right: 0;
+}
+
+.apartment__list__time{
+  display: inline-block;
+  margin-top: 24px;
+  padding-left: 24px;
+  font-size: 0.875rem;
+}
+
+.apartment__list__title{
+  padding-left: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.apartment__list__text{
+  margin-top: 24px;
+  padding-left: 24px;
+  padding-right: 28px;
+  font-size: 0.875rem;
+  line-height: 1.57;
+}
+
+/* CTA */
+
+.cta{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 96px;
+  display: flex;
+}
+
+.cta__left{
+  width: 45%;
+  background-color: #E60012;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.cta__left__title{
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.cta__left__text{
+  margin-top: 10px;
+  font-size: 0.875rem;
+  line-height: 1.57;
+}
+
+.cta__right{
+  width: 55%;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+}
+
+.cta__right__left{
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #E60012;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cta__right__left h3{
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.cta__right__number{
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+
+.cta__right__right{
+  width: 50%;
+  text-align: center;
+}
+
+.cta__right__right h3{
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.cta__btn{
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px 30px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.cta__btn:hover{
+  background-color: #000;
+  color: #fff;
+}
