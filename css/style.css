@@ -1259,3 +1259,190 @@ service.html
   background-color: #000;
   color: #fff;
 }
+
+
+/* 
+
+news.html
+
+*/
+
+.news-container{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-list{
+  width: 64%;
+}
+
+.news-pick__title a{
+  display: inline-block;
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 16px;
+}
+
+.category{
+  display: inline-block;
+  background-color: #F5F5F5;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+.news-pick__category{
+  margin-top: 16px;
+}
+
+.news-pick__time{
+  display: block;
+  margin-top: 16px;
+  font-size: 0.75rem;
+}
+
+.news-common{
+  margin-top: 40px;
+}
+
+.news-common__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.news-common__list li{
+  width: 46%;
+}
+
+.news-common__title{
+  margin-top: 13px;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.news-common__category{
+  margin-top: 13px;
+}
+
+.news-common__time{
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 16px;
+}
+
+.pager{
+  margin-top: 40px;
+}
+
+.pager__inner{
+  display: flex;
+  justify-content: center;
+}
+
+.pager__link{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-left: 16px;
+}
+
+.pager__link--active{
+  background-color: #2A2A2A;
+  color: #fff;
+}
+
+.arrow-left{
+  border: none;
+}
+
+.arrow-right{
+  border: none;
+}
+
+.news-aside{
+  width: 30%;
+}
+
+
+/* WELL-READ */
+
+.aside-title{
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.well-read__list{
+  margin-top: 24px;
+}
+
+.well-read__list li{
+  border-bottom: 1px solid #CCC;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.well-read__img{
+  width: 33%;
+}
+
+.well-read__title{
+  width: 61%;
+}
+
+.well-read__title a{
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.57;
+}
+
+/* CATEGORY-LIST */
+
+.category-list{
+  margin-top: 56px;
+}
+
+.category-list ul{
+  margin-top: 24px;
+  display: flex;
+  gap: 4px;
+}
+
+/* TAG-LIST */
+
+.tag-list{
+  margin-top: 48px;
+}
+
+.tag-list ul{
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag{
+  display: inline-block;
+  padding: 2px 6px;
+  background-color: #F5F5F5;
+  font-size: 0.75rem;
+}
+
+.search-bar{
+  margin-top: 40px;
+}
+
+.search-bar a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: end;
+  color: #757575;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 7px;
+}
