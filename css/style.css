@@ -1559,7 +1559,7 @@ privacy.html
 
 .privacy-policy--title{
   margin: 0 auto;
-  width: 72%;
+  max-width: 720px;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1;
@@ -1569,7 +1569,7 @@ privacy.html
 
 .personal__text{
   margin: 0 auto;
-  width: 72%;
+  max-width: 720px;
   margin-top: 24px;
   line-height: 1.8;
 }
@@ -1584,7 +1584,7 @@ privacy.html
 
 .privacy-table__inner{
   margin: 0 auto;
-  width: 72%;
+  max-width: 720px;
   border-collapse: collapse;
 }
 
@@ -1625,7 +1625,7 @@ privacy.html
 
 .personal-table__inner{
   margin: 0 auto;
-  width: 72%;
+  max-width: 720px;
   border-collapse: collapse;
 }
 
@@ -1664,3 +1664,113 @@ privacy.html
 contact.html
 
 */
+
+.contact-form{
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.form-title{
+  margin-top: 48px;
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.radio{
+  margin-top: 8px;
+}
+
+input[type="radio"]{
+  opacity: 0;
+  position: absolute;
+}
+
+input[type="radio"]+span{
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 1;
+}
+
+input[type="radio"]+span:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 1;
+  background-color: #fff;
+}
+
+input[type="radio"]+span:after{
+  content: "";
+  display: none;
+}
+
+input[type="radio"]:checked+span:after{
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2.5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #E60012;
+  line-height: 1;
+}
+
+.input-box{
+  margin-top: 8px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  border-bottom: 1px solid #CCC;
+}
+
+.input-box input{
+  width: 100%;
+}
+
+.textarea-box{
+  margin-top: 4px;
+  border: 1px solid #CCC;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.form-attention{
+  text-align: center;
+  margin-top: 40px;
+  line-height: 1;
+}
+
+.form-attention a{
+  text-decoration: underline;
+}
+
+
+.formBtn{
+  margin-top: 48px;
+  text-align: center;
+}
+
+.buttonAction{
+  width: 400px;
+  padding: 30px;
+  background-color: #E60012;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: .1em;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.buttonAction:hover{
+  color: #E60012;
+  background-color: #fff;
+  outline: solid 1px #E60012;
+}

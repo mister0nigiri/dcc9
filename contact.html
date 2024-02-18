@@ -18,6 +18,9 @@
   <link rel="canonical" href="">
   <link rel="icon" href="">
   <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
@@ -37,10 +40,10 @@
       <nav class="header__nav">
         <ul>
           <li><a href="index.html">ホーム</a></li>
-          <li><a href="">会社情報</a></li>
-          <li><a href="">事業内容</a></li>
-          <li><a href="">お知らせ</a></li>
-          <li><a href="">採用情報</a></li>
+          <li><a href="company.html">会社情報</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="#">採用情報</a></li>
         </ul>
       </nav>
     </div>
@@ -53,41 +56,57 @@
         <img src="img/mv-pc4.png">
       </picture>
     </figure>
-    <div class="page-title--box">
+    <div class="page-title--box wrapper">
       <h2 class="page-title" data-en="contact">お問い合わせ</h2>
     </div>
-    <section class="contact-form wrapper">
+    <section class="contact-form">
       <p>下記お問い合わせフォームよりお問い合わせ下さい。</p>
       <form action="#" method="POST" id="form">
-        <p>お問い合わせ項目</p>
-        <div class="input-field">
-          <input type="radio" name="item" id="service" value="技術・サービスについて">
-          <label for="service">技術・サービスについて</label>
-          <input type="radio" name="item" id="recruit" value="採用について">
-          <label for="recruit">採用について</label>
-          <input type="radio" name="item" id="interview" value="取材について">
-          <label for="interview">取材について</label>
-          <input type="radio" name="item" id="other" value="その他">
-          <label for="other">その他</label>
+        <h3 class="form-title">お問い合わせ項目</h3>
+        <div class="radio-box">
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="技術・サービスについて">
+              <span>技術・サービスについて</span>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="採用について">
+              <span>採用について</span>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="取材について">
+              <span>取材について</span>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="その他">
+              <span>その他</span>
+            </label>
+          </div>
         </div>
-        <p>会社名</p>
+        <h3 class="form-title">会社名</h3>
         <div class="input-box">
           <input type="text" placeholder="双海工業株式会社">
         </div>
-        <p>お名前</p>
+        <h3 class="form-title">お名前</h3>
         <div class="input-box">
           <input type="text" placeholder="双海太郎">
         </div>
-        <p>メールアドレス</p>
+        <h3 class="form-title">メールアドレス</h3>
         <div class="input-box">
           <input type="email" placeholder="xxxxxx@xxx.co.jp">
         </div>
-        <p>お問い合わせ内容</p>
-        <div class="input-box">
-          <textarea cols="30" rows="10" placeholder="詳細なお問い合わせ内容をご入力ください。"></textarea>
+        <h3 class="form-title">お問い合わせ内容</h3>
+        <div class="textarea-box">
+          <textarea cols="80" rows="10" placeholder="詳細なお問い合わせ内容をご入力ください。"></textarea>
         </div>
-        <p>※個人情報の取り扱いについては、<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
-        <div class="formBtns">
+        <p class="form-attention">※個人情報の取り扱いについては、<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+        <div class="formBtn">
           <button class="buttonAction">送信する</button>
         </div>
       </form>
@@ -106,12 +125,12 @@
         <nav class="footer__nav">
           <ul>
             <li><a href="index.html">ホーム</a></li>
-            <li><a href="">会社情報</a></li>
-            <li><a href="">事業内容</a></li>
-            <li><a href="">お知らせ</a></li>
-            <li><a href="">採用情報</a></li>
-            <li><a href="">プライバシーポリシー</a></li>
-            <li><a href="">お問い合わせ</a></li>
+            <li><a href="company.html">会社情報</a></li>
+            <li><a href="service.html">事業内容</a></li>
+            <li><a href="news.html">お知らせ</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="privacy.html">プライバシーポリシー</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
