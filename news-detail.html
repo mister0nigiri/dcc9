@@ -18,6 +18,9 @@
   <link rel="canonical" href="">
   <link rel="icon" href="">
   <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
@@ -37,10 +40,10 @@
       <nav class="header__nav">
         <ul>
           <li><a href="index.html">ホーム</a></li>
-          <li><a href="">会社情報</a></li>
-          <li><a href="">事業内容</a></li>
-          <li><a href="">お知らせ</a></li>
-          <li><a href="">採用情報</a></li>
+          <li><a href="company.html">会社情報</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="news.html" class="current-page">お知らせ</a></li>
+          <li><a href="#">採用情報</a></li>
         </ul>
       </nav>
     </div>
@@ -50,17 +53,17 @@
       <div class="news-list">
         <div class="news-pick">
           <div class="news-pick__img">
-            <a href="#"><img src="img/list-1.png" alt=""></a>
+            <a href="news-detail.html"><img src="img/list-1.png" alt=""></a>
           </div>
-          <h2 class="news-pick__title"><a href="#">公共事業プロジェクト1A 現場見学会を開催</a></h2>
-          <a href="#" class="category">ニュース</a>
-          <time datetime="2023-01-01">2023.01.01</time>
+          <h1 class="news-pick__title"><a href="news-detail.html">公共事業プロジェクト1A 現場見学会を開催</a></h1>
+          <a href="#" class="category news-pick__category">ニュース</a>
+          <time class="news-pick__time" datetime="2023-01-01">2023.01.01</time>
         </div>
         <div class="table-contents">
           <h3 class="table-contents__title">目次</h3>
           <ol class="order-list">
-            <li class="order-list__item"><a href="#atfirst">はじめに</a></li>
-            <li class="order-list__item"><a href="explanation">工事事務所で概要説明</a></li>
+            <li class="order-list__item"><a href="#atFirst">はじめに</a></li>
+            <li class="order-list__item"><a href="#explanation">工事事務所で概要説明</a></li>
             <li class="order-list__item">
               <a href="#tour">現場見学会の様子</a>
               <ul>
@@ -72,23 +75,23 @@
             <li class="order-list__item"><a href="#session">質疑応答</a></li>
           </ol>
         </div>
-        <section id="atfirst" class="atfirst">
-          <h3 class="detail__title">はじめに</h3>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+        <section id="atfirst" class="atFirst">
+          <h2 class="detail__title">はじめに</h2>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
         </section>
         <section id="explanation" class="explanation">
-          <h3 class="detail__title">工事事務所で概要説明</h3>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h2 class="detail__title">工事事務所で概要説明</h2>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
         </section>
         <section id="tour" class="tour">
-          <h3 class="detail__title">現場見学会の様子</h3>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <h4 class="detail__title-sub">工事前の準備</h4>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h2 class="detail__title">現場見学会の様子</h2>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h3 class="detail__title-sub">工事前の準備</h3>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
           <ul>
             <li>リストの内容が入ります。</li>
             <li>リストの内容が入ります。</li>
@@ -99,76 +102,77 @@
             <li>リストの内容が入ります。</li>
             <li>リストの内容が入ります。</li>
           </ol>
-          <h4 class="detail__title-sub">基礎工事の様子</h4>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <h4 class="detail__title-sub">現場の作業の流れ</h4>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h3 class="detail__title-sub">基礎工事の様子</h3>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h3 class="detail__title-sub">現場の作業の流れ</h3>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
         </section>
         <section id="session" class="session">
-          <h3 class="detail__title">質疑応答</h3>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-          <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <h2 class="detail__title">質疑応答</h2>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+          <p class="detail__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
         </section>
       </div>
       <aside class="news-aside">
         <section class="well-read">
-          <h3 class="well-read__title">よく読まれている記事</h3>
+          <h3 class="aside-title">よく読まれている記事</h3>
           <ul class="well-read__list">
             <li>
-              <div>
+              <div class="well-read__img">
                 <a href="#">
                   <img src="img/noimage-small.png" alt="">
                 </a>
               </div>
-              <h4>
+              <h4 class="well-read__title">
                 <a href="#">記事タイトルが入ります記事タイトルが入ります記事タイトルが入ります。</a>
               </h4>
             </li>
             <li>
-              <div>
+              <div class="well-read__img">
                 <a href="#">
                   <img src="img/noimage-small.png" alt="">
                 </a>
               </div>
-              <h4>
+              <h4 class="well-read__title">
                 <a href="#">記事タイトルが入ります記事タイトルが入ります記事タイトルが入ります。</a>
               </h4>
             </li>
             <li>
-              <div>
+              <div class="well-read__img">
                 <a href="#">
                   <img src="img/noimage-small.png" alt="">
                 </a>
               </div>
-              <h4>
+              <h4 class="well-read__title">
                 <a href="#">記事タイトルが入ります記事タイトルが入ります記事タイトルが入ります。</a>
               </h4>
             </li>
             <li>
-              <div>
+              <div class="well-read__img">
                 <a href="#">
                   <img src="img/noimage-small.png" alt="">
                 </a>
               </div>
-              <h4>
+              <h4 class="well-read__title">
                 <a href="#">記事タイトルが入ります記事タイトルが入ります記事タイトルが入ります。</a>
               </h4>
             </li>
             <li>
-              <div>
+              <div class="well-read__img">
                 <a href="#">
                   <img src="img/noimage-small.png" alt="">
                 </a>
               </div>
-              <h4>
+              <h4 class="well-read__title">
                 <a href="#">記事タイトルが入ります記事タイトルが入ります記事タイトルが入ります。</a>
               </h4>
             </li>
           </ul>
         </section>
         <section class="category-list">
+          <h3 class="aside-title">カテゴリー</h3>
           <ul>
             <li><a href="#" class="category">ニュース</a></li>
             <li><a href="#" class="category">ブログ</a></li>
@@ -176,6 +180,7 @@
           </ul>
         </section>
         <section class="tag-list">
+          <h3 class="aside-title">タグ</h3>
           <ul>
             <li><a href="#" class="tag">公共事業</a></li>
             <li><a href="#" class="tag">住宅</a></li>
@@ -191,7 +196,7 @@
           </ul>
         </section>
         <div class="search-bar">
-          <a href="#">キーワードで検索する<img src="" alt=""></a>
+          <a href="#">キーワードで検索する<i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
       </aside>
     </div>

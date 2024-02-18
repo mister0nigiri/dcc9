@@ -30,11 +30,6 @@ img{
   padding-right: 16px;
 }
 
-li{
-  list-style: none;
-}
-
-
 /* table , td, th {
 	border: 1px solid #595959;
 	border-collapse: collapse;
@@ -91,6 +86,7 @@ th {
 .header__nav ul li{
   writing-mode: vertical-rl;
   margin-left: 57px;
+  list-style: none;
 }
 
 .header__nav ul li a{
@@ -689,6 +685,7 @@ th {
 
 .footer__nav ul{
   writing-mode: vertical-lr;
+  list-style: none;
 }
 
 .footer__nav ul li a{
@@ -780,6 +777,7 @@ company.html
 .company-nav ul li{
   margin-bottom: 24px;
   text-align: right;
+  list-style: none;
   position: relative;
 }
 
@@ -1042,6 +1040,7 @@ service.html
 .public__list li{
   width: 25%;
   margin-right: 64px;
+  list-style: none;
 }
 
 .public__list li:last-of-type{
@@ -1081,6 +1080,7 @@ service.html
 .public__list-second li{
   width: 25%;
   margin-right: 64px;
+  list-style: none;
 }
 
 .public__list-second li:last-of-type{
@@ -1135,6 +1135,7 @@ service.html
 .apartment__list li{
   width: 25%;
   margin-right: 64px;
+  list-style: none;
 }
 
 .apartment__list li:last-of-type{
@@ -1150,6 +1151,7 @@ service.html
 .apartment__list-second li{
   width: 25%;
   margin-right: 64px;
+  list-style: none;
 }
 
 .apartment__list-second li:last-of-type{
@@ -1314,6 +1316,7 @@ news.html
 
 .news-common__list li{
   width: 46%;
+  list-style: none;
 }
 
 .news-common__title{
@@ -1340,6 +1343,7 @@ news.html
 .pager__inner{
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 
 .pager__link{
@@ -1411,6 +1415,7 @@ news.html
   margin-top: 24px;
   display: flex;
   gap: 4px;
+  list-style: none;
 }
 
 /* TAG-LIST */
@@ -1424,6 +1429,7 @@ news.html
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  list-style: none;
 }
 
 .tag{
@@ -1446,3 +1452,98 @@ news.html
   border-bottom: 1px solid #CCC;
   padding-bottom: 7px;
 }
+
+
+/* 
+
+news-detail.html
+
+*/
+
+.table-contents{
+  width: 87.5%;
+  margin: 0 auto;
+  outline: 1px solid #2A2A2A;
+  margin-top: 40px;
+  padding: 38px 50px;
+}
+
+.table-contents__title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+.order-list{
+  margin-top: 24px;
+}
+
+.order-list__item{
+  margin-bottom: 8px;
+}
+
+.order-list__item::marker{
+	font-weight: bold;
+}
+
+.order-list__item:last-of-type{
+  margin-bottom: 0;
+}
+
+.order-list__item a{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.order-list__item ul{
+  margin-top: 5px;
+}
+
+.order-list__item ul li{
+  font-size: 0.875rem;
+  list-style: inside;
+}
+
+/* atFIRST */
+
+.detail__title{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 1.375rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid #E60012;
+  border-bottom: 1px solid #E60012;
+}
+
+.detail__text{
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.detail__text:last-of-type{
+  margin-bottom: 0;
+}
+
+/* TOUR */
+
+.detail__title-sub{
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1;
+  padding-left: 16px;
+  border-left: 4px solid #E60012;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.tour ul{
+  padding-left: 20px;
+  margin-bottom: 32px;
+}
+
+.tour ol{
+  padding-left: 20px;
+}
+
