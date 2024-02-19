@@ -1,14 +1,20 @@
 const mySwiper = new Swiper ('.swiper', {
   
   loop: true, 
-  slidesPerView: '3', 
+  slidesPerView: 1, 
   slidesPerGroup: 1,
   spaceBetween: 20, 
 
   breakpoints: {
     768: {
       slidesPerView: 4,
-    }
+    },
+    500: {
+      slidesPerView: 3,
+    },
+    410: {
+      slidesPerView: 2,
+    },
   },
   speed: 1000, 
   // centeredSlides : true,
