@@ -947,7 +947,6 @@ company.html
 
 .location{
   margin-top: 1px;
-  padding-bottom: 160px;
 }
 
 .google-map{
@@ -2124,6 +2123,124 @@ SP
 
   .footer__nav__contact__icon{
     margin-top: 0px;
+  }
+
+  /* 
+
+  company.html
+
+  */
+
+  .under-mv{
+    margin-top: 24px;
+  }
+
+  .page-title{
+    font-size: 1.75rem;
+  }
+
+  .page-title::before{
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+  }
+
+  .company-container{
+    margin-top: 80px;
+  }
+
+  .company-nav{
+    display: none;
+  }
+
+  .company-content{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* PHILOSOPHY */
+
+  .company-content__title{
+    font-size: 1.25rem;
+    padding-left: 8px;
+    border-left: 4px solid #E60012;
+  }
+
+  .philosophy{
+    padding-bottom: 0px;
+  }
+
+  .philosophy__title{
+    font-size: 1rem;
+  }
+
+  .philosophy__text{
+    font-size: 0.875rem;
+  }
+
+  .philosophy__img img{
+    height: 250px;
+  }
+
+  /* OVERVIEW */
+
+  .overview{
+    margin-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .overview__term{
+    width: 23%;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 0.875rem;
+  }
+  
+  .overview__description{
+    font-size: 0.875rem;
+  }
+  
+
+  /* HISTORY */
+
+  .history{
+    margin-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .history__year{
+    margin-right: 10px;
+    font-size: 0.875rem;
+  }
+
+  .history__month{
+    font-size: 0.875rem;
+  }
+  
+  .history__description{
+    font-size: 0.875rem;
+  }
+
+  /* CHART */
+
+  .chart{
+    margin-top: 80px;
+    padding-bottom: 0;
+  }
+
+  /* LOCATION */
+
+  .location{
+    margin-top: 80px;
+  }
+
+  .google-map iframe{
+    height: 300px;
+  }
+
+  .location__text{
+    margin-top: 8px;
+    font-size: 0.875rem;
   }
 
 }
