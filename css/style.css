@@ -2603,7 +2603,6 @@ SP
   }
 
   .tour ul{
-
     margin-bottom: 20px;
   }
 
@@ -2614,109 +2613,41 @@ SP
   */
 
   .personal{
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .privacy-policy--title{
-    margin: 0 auto;
-    max-width: 720px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1;
-    padding-left: 16px;
-    border-left: 8px solid #E60012;
-  }
-
-  .personal__text{
-    margin: 0 auto;
-    max-width: 720px;
-    margin-top: 24px;
-    line-height: 1.8;
+    font-size: 1.25rem;
+    padding-left: 8px;
+    border-left: 4px solid #E60012;
   }
 
   .get-personal{
-    margin-top: 56px;
+    margin-top: 40px;
   }
 
   .privacy-table{
     margin-top: 40px;
   }
 
-  .privacy-table__inner{
-    margin: 0 auto;
-    max-width: 720px;
-    border-collapse: collapse;
-  }
-
   .privacy-table__header{
-    width: 25%;
-    padding: 15px 20px;
-    background-color: #F5F5F5;
-    border-bottom: 1px solid #707070;
-    font-weight: normal;
-    text-align: left;
-    line-height: 2;
-  }
-
-  .privacy-table__row:first-of-type .privacy-table__header{
-    background-color: #3E3232;
-    color: #fff;
+    padding: 5px 5px;
+    font-size: 0.875rem;
   }
 
   .privacy-table__text{
-    padding: 15px 20px;
-    border-bottom: 1px solid #707070;
-    line-height: 2;
-  }
-
-  .privacy-table__row:first-of-type .privacy-table__text{
-    background-color: #707070;
-    color: #fff;
-  }
-
-  .privacy-table__row:last-child.privacy-table__header, 
-  .privacy-table__row:last-child.privacy-table__text{
-    border-bottom-width: 0;
-  }
-
-  .personal-table{
-    margin-top: 40px;
-  }
-
-  .personal-table__inner{
-    margin: 0 auto;
-    max-width: 720px;
-    border-collapse: collapse;
+    padding: 5px 5px;
+    font-size: 0.875rem;
   }
 
   .personal-table__header{
-    width: 25%;
-    padding: 15px 20px;
-    background-color: #efefef;
-    border-bottom: 1px solid #ddd;
-    font-weight: normal;
-    line-height: 1.8;
-  }
-
-  .personal-table__row:first-of-type .personal-table__header{
-    background-color: #3E3232;
-    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.875rem;
   }
 
   .personal-table__text{
-    padding: 15px 20px;
-    border-bottom: 1px solid #ddd;
-    line-height: 1.8;
-  }
-
-  .personal-table__row:first-of-type .personal-table__text{
-    background-color: #707070;
-    color: #fff;
-  }
-
-  .personal-table__row:last-child.personal-table__header, 
-  .personal-table__row:last-child.personal-table__text{
-    border-bottom-width: 0;
+    padding: 5px 10px;
+    font-size: 0.875rem;
   }
 
   /* 
