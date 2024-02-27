@@ -67,3 +67,63 @@ document.addEventListener('DOMContentLoaded', function() {
     link.addEventListener('click', scrollToSection);
   });
 });
+
+// スライドメニュー
+const menuOpen = document.querySelector('#menu-open')
+const menuClose = document.querySelector('#menu-close')
+const menuPanel = document.querySelector('#menu-panel')
+const menuItems = document.querySelectorAll('#menu-panel li')
+const menuOptions = {
+  duration: 1400,
+  easing: 'ease',
+  fill: 'forwards',
+};
+
+const mask = document.querySelector('#mask');
+const showKeyframes = {
+  opacity: [0, 1],
+  visibility: 'visible',
+};
+const hideKeyframes = {
+  opacity: [1, 0],
+  visibility: 'hidden',
+};
+const options = {
+  duration: 800,
+  easing: 'ease',
+  fill: 'forwards',
+};
+
+// メニューを開く
+menuOpen.addEventListener('click', () => {
+  menuPanel.animate({translate: ['100vw', 0]}, menuOptions);
+  // リンクを一つずつ順に表示
+  menuItems.forEach((menuItem, index) => {
+    menuItem.animate(
+      {
+        opacity: [0, 1],
+        translate: ['2rem', 0],
+      },
+      {
+        duration: 1000,
+        delay: 300 * index,
+        easing: 'ease',
+        fill: 'forwards',
+      }
+    );
+  });
+  mask.animate(showKeyframes,options);
+})
+
+//メニューを閉じる
+menuClose.addEventListener('click', () => {
+  menuPanel.animate({translate: [0, '100vw']}, menuOptions);
+  menuItems.forEach((menuItem) => {
+    menuItem.animate({opacity: [1, 0]}, menuOptions);
+  });
+  mask.animate(hideKeyframes,options);
+})
+
+mask.addEventListener('click', () => {
+  menuClose.click();
+})
