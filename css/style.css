@@ -93,7 +93,9 @@ img{
   height: 60px;
 }
 
-
+.header__nav-sp{
+  display: none;
+}
 
 /* JUMBOTRON */
 
@@ -1767,6 +1769,10 @@ SP
   
   .header__nav{
     display: none;
+  }
+
+  .header__nav-sp{
+    display: block;
   }
 
   .btn-menu{
